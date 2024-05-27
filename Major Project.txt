@@ -1,0 +1,53 @@
+Google Net - 22 layers deep
+Alex net - 8 
+LeNet - 7
+ResNet - 18
+VGG - 19
+mobileNet - 27 CNN includes  13 depthwise convolution, 1 avg pool layer, 1 fully connected layer, 1 soft layer
+MobileNetv2 - 53
+DenseNet121 - 121
+
+Toamto Plant Diseases Information:
+
+tomato bacterial spot causes , prevention or symptoms , treatment
+Using pathogen-free seed and disease-free transplants, when possible, is the best way to avoid bacterial spot on tomato. Avoiding sprinkler irrigation and cull piles near greenhouse or field operations, and rotating with a nonhost crop also helps control the disease.
+Use drip irrigation and avoid overhead irrigation if possible. Water plants in the morning to allow water on plants to evaporate quickly. Avoid handling plants while plants are wet. Pesticide: For homeowners, copper products or copper plus mancozeb are registered and effective to control bacterial spot of tomato.
+
+What causes tomato late blight?
+Phytophthora infestans is the oomycete, or water mold pathogen, responsible for tomato late blight. In the united states, this fungus-like organism overwinters primarily in plant debris as mycelia, a filamentous thread-like growth of the pathogen.
+Symptoms and Signs
+Leaf symptoms of late blight first appear as small, water-soaked areas that rapidly enlarge to form purple-brown, oily-appearing blotches. On the lower side of leaves, rings of grayish white mycelium and spore-forming structures may appear around the blotches.
+The first symptoms of late blight on tomato leaves are irregularly shaped, water-soaked lesions, often with a lighter halo or ring around them 
+
+Leaf mold is caused by the fungus Passalora fulva (previously called Fulvia fulva or Cladosporium fulvum).
+Remove and destroy all affected plant parts. For plants growing under cover, increase ventilation and, if possible, the space between plants. Try to avoid wetting the leaves when watering plants, especially when watering in the evening, Copper-based fungicides can be used to control diseases on tomatoes.
+
+Tomato red spider mite feeding causes whitening or yellowing of leaves, which then dry out and eventually fall off. In the case of severe attacks, plant damage progresses very quickly, and hosts may die within 3–5 weeks, if no management actions are taken.
+What is the prevention of spider mite?
+Midseason washing of trees and vines with water to remove dust may help prevent serious late-season mite infestations. In gardens and on small fruit trees, regular, forceful spraying of plants with water often will reduce spider mite numbers adequately.
+Spider mites become a real problem on tomatoes when the weather becomes hot. The generation time of the tiny sucking insects becomes as short as four or five days. Spider mites feeding cause the leaves to have a dusty faded look. In severe infestations, tiny webs cover the plant.
+
+What are the symptoms of target spot?
+Target spot. Target spot symptoms begin as small dark lesions which enlarges to form light brown lesions with concentric pattern and a yellow halo around it in the transplants. Lesions can be seen inside the canopy and the micro-climate favors the infection process.
+Growers should consult regional disease management guides for recommended products. Products containing chlorothalonil, mancozeb, and copper oxychloride have been shown to provide good control of target spot in research trials.
+
+
+Tomato yellow leaf curl virus (TYLCV) is a DNA virus from the genus Begomovirus and the family Geminiviridae. TYLCV causes the most destructive disease of tomato,
+The most obvious symptoms in tomato plants are small leaves that become yellow between the veins. The leaves also curl upwards and towards the middle of the leaf 
+Weeds such as thorn apples (Datura stramonium)  can show symptoms, others such as Marsh mellow (Malva parviflora)  are symptomless carriers, while cotton and aubergine, are immune to the virus.
+Management of TYLCV is a multi-step strategy. Plants suspected of TYLCV infection should be rogued from the garden and destroyed in the following manner: symptomatic plants should be carefully covered by a clear or black plastic bag and tied at the stem at soil line.
+
+What causes tomato mosaic virus?
+Tobacco Mosaic Virus (TMV) and Tomato Mosaic Virus (ToMV) are Tobamoviruses spread by seed, articifical grafting, human handling, and tobacco products. The virus is a concern throughout the growing season. Infection occurs when the virus enters the plant through wounds as small as torn plant hairs.
+
+-Remove and destroy infected plants. Pull plants with mosaic symptoms immediately. ...
+Keep your garden weed-free. Some weed may be harboring the virus. ...
+Always wash your hands thoroughly and disinfect tools. ...
+Plant resistant varieties of tomato.
+
+-Is there a treatment for mosaic virus?
+Solutions. There is no cure for viruses in infected plants. The source of tobacco mosaic can be contaminated seed, but the virus is usually carried on the hands and clothing of those who use tobacco products. Infected plants produce edible fruit, but yield, size, and quality are reduced.
+
+links:
+https://www.thespruce.com/tomato-leaf-diseases-1403409
+https://www.thespruce.com/identify-treat-prevent-tomato-diseases-7153094
