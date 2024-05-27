@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaf Disease Prediction</title>
+    <style>
+        h1::selection{
+          background: black;
+          color: white;
+        }
+      
+          .container {
+              display: grid;
+              margin-left: 50%;
+              width: 100%;
+              margin: 20px 0 0 0;
+              
+            }
+  
+          .input-container {
+              display: flex;
+              align-items: center;
+          }
+  
+          input[type="file"] {
+              display: none;
+          }
+  
+          label.upload-label {
+              width: 200px;
+              height: 200px;
+              background: url('placeholder.png') center/cover;
+              box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.4);
+              cursor: pointer;
+              text-align: center;
+              line-height: 150px;
+              border-radius: 30px;
+              margin-top: 3vh;
+          }
+  
+          .button_top {
+              margin: 4vh 0 4vh 8px;
+              width: 182px;
+              height: 48px;
+              color: white;
+              background-color: #228b22;
+              outline: none;
+              border: none;
+              border-radius: 30px;
+              
+          }
+
+	.highlight {
+    		background-color: yellow;
+    		border: 1px solid black;
+    		padding: 5px;
+	}
+         
+          .margin{
+          
+              margin-left: 41vw;
+          }
+          .title{
+              margin-left: 35vw;
+	      color: #228b22
+          }
+          .sub-title{
+              margin-left: 15px;
+          }
+	.sub-titles{
+		margin-left: 468px;
+	}
+          .logo{
+              margin: 20px 0 0 40px;
+              color: rgb(180, 3, 56);
+          }
+          .hiw{
+              margin: 70px 0 0 40px;
+          }
+         ol li{
+              margin: 20px 10px 0 -10px;
+              line-height: 30px;
+              font-size: 1.3em;
+          }
+          .footer{
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          .footer a{
+              color: rgb(180, 3, 56);
+          }
+          #prediction-result{
+            color:black;
+              margin-bottom: 10px;
+          }
+          .result{
+		
+            font-size: 1.5em;
+            color: rgb(180, 3, 56);
+            
+          }
+	.res{
+		font-size: 1.2em;
+	}
+	.important {
+        color: #FF5733; /* orange color for important information 
+        font-weight: bold; */
+      }
+      .fertilizer {
+        color: #FF8C00; /* darker orange color for fertilizer recommendation */
+    
+        font-weight: bold;
+      }
+          @media screen and (max-width:500px) {
+            
+              .margin{
+                  margin-left:20vw;
+              }
+              .title{
+                  margin-left: 8vw;
+                  
+              }
+              .sub-title{
+                margin-left: 4vw;
+              }
+              .logo{
+                  margin-left: 10px;
+              }
+              .result{
+                font-size: 1.2em;
+              }
+              ol li{
+                font-size: 1em;
+              }
+             
+          }
+
+h2, h3 { color: #00cc66; /* Light green */ } 
+
+      </style>
+</head>
+
+<body>
+    <h1 class="title">AgriSol Leaf Disease Prediction</h1>
+    <h3 class="sub-titles">Tomato Leaf Disease Detection and Fertilizer Recommendation System</h3>
+    <div class="margin">
+    <form method="post" action="/predict" enctype="multipart/form-data" id="prediction-form">
+        <h4 class="sub-title">Upload leaf Images here</h4>
+        <div class="input-container">
+        <input type="file" id="imageInput" name="file" accept="image/*">
+        <label for="imageInput" class="upload-label" id="imageLabel"><h2>Browse Files</h2></label>
+        </div>
+        <input type="submit" class="button_top" value="Predict">
+    </form>
+    
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+    </div>
+
+
+<div id="prediction-result" class="logo">
+    <h1>Prediction Result</h1>
+
+    <p><span class="res">Predicted Disease:<span> <span class="result ">{{ prediction }}<span></p>
+    <p><span class="res">Root Cause:<span> <span class="result important">{{ root_cause }}<span></p>
+    <p><span class="res">Fertilizer Recommendation:<span> <span class="result highlight fertilizer">{{ fertilizer_recommendation }}</span></p>
+</div>
+
+
+<script>
+    // JavaScript to display the selected image as the background of the input
+    const imageInput = document.getElementById('imageInput');
+    const imageLabel = document.getElementById('imageLabel');
+
+    imageInput.addEventListener('change', function () {
+        if (this.files && this.files[0]) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                imageLabel.style.backgroundImage = `url('${e.target.result}')`;
+                imageLabel.textContent = ''; // Remove the text
+            };
+            reader.readAsDataURL(this.files[0]); 
+    }
+});
+
+
+</script>
+</body>
+</html>
